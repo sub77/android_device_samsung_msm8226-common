@@ -16,8 +16,8 @@
 -include device/samsung/qcom-common/BoardConfigCommon.mk
 
 # Platform
-TARGET_BOARD_PLATFORM := msm8974
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno330
+TARGET_BOARD_PLATFORM := msm8226
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno305
 
 # Architecture
 TARGET_CPU_VARIANT := krait
@@ -50,8 +50,8 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm8974
-TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8974
+TARGET_INIT_VENDOR_LIB := libinit_msm8226
+TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8226
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
